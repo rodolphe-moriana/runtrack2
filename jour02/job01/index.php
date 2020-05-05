@@ -12,3 +12,5 @@ for($var=0;$var<=1337;$var++){
 
     echo $var."<br>";
 }
+
+?>
