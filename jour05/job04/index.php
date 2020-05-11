@@ -1,9 +1,5 @@
 <?php
 
-$a=5;
-$operation="*";
-$b=9;
-
 function calcule($a,$b,$operation){
 
     if($b==0 and ($operation=="/" or $operation=="%")){
@@ -28,6 +24,6 @@ function calcule($a,$b,$operation){
     return $resultat;
 }
 
-echo calcule($a,$b,$operation);
+echo calcule(5,9,"*");
 
 ?>
