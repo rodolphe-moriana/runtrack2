@@ -5,7 +5,7 @@ $jour=true;
 
 if ($jour)
 {
-    function bonjour($jour) 
+    function bonjour($jour)
         {
         echo "Bonjour";
         }
