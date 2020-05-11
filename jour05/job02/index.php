@@ -2,21 +2,15 @@
 
 $jour=true;
 
+function bonjour($jour){
 
-if ($jour)
-{
-    function bonjour($jour)
-        {
+    if($jour==true){
         echo "Bonjour";
-        }
-}
+    }
 
-else 
-{
-    function bonjour() 
-        {
+    else{
         echo "Bonsoir";
-        }
+    }
 }
 
 bonjour($jour);
