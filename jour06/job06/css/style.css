@@ -1,0 +1,97 @@
+*
+{ margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(to bottom,white,rgb(235, 218, 198) ,rgb(219, 203, 185),rgb(204, 184, 161),rgb(219, 203, 185),rgb(219, 203, 185),rgb(235, 218, 198),white);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 2%;
+    font-size: 7em;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+}
+
+#titre2{
+    padding-top: 2%;
+    font-size: 4em;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+}
+
+.red{
+    color: red;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    height: 1000px;
+    margin-top: 10%;
+    border-collapse: separate;
+    border-spacing: 40px 4rem;
+    border-color: rgb(90, 89, 89);
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1%;
+    box-shadow: 30px 30px 30px grey, -30px 30px 30px grey;
+}
+
+.centre{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+}
+
+#imgup{
+    box-shadow: 0px 0px 30px grey;
+}
+
+#nom{
+    width: 50%;
+    box-shadow: 0px 0px 30px grey;  
+}
+
+#lien{
+    width: 80%;
+    box-shadow: 0px 0px 30px grey;
+}
+
+#desc{
+    width: 90%;
+    height: 400%;
+    text-align: left;
+    box-shadow: 0px 0px 30px grey;
+    resize: none;
+    font-size: large;
+}
+
+#button2{
+            margin-top: 40%;
+            width: 50%;
+            margin-left: 21%;
+            height: 20%;
+            box-shadow: 0px 0px 30px grey;
+            border-radius: 2%;
+            border-color: black;
+            font-family: 'Dosis', sans-serif;
+            font-size: 1.5em;
+            text-align: center;
+}
+
+.centre{
+    padding-top: 5%;
+}
