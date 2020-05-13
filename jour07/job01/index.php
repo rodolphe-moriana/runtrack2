@@ -2,7 +2,7 @@
 
 session_start();
 
-if(empty($_SESSION["nbvisites"]) or isset($_POST["reset"])){
+if(isset($_POST["reset"])){
     $_SESSION["nbvisites"]=0;
 }
 
